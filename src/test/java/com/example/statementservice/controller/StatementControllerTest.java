@@ -17,7 +17,7 @@ class StatementControllerTest {
     private MockMvc mockMvc;
 
     @Test
-    void shouldGenerateTaskIdAndReturnsAcceptedStatus() throws Exception {
+    void GenerateStatements_ReturnAllTransactions() throws Exception {
         mockMvc.perform(get("/v1/statements")
                         .param("fromDate", "2024-01-01")
                         .param("toDate", "2024-06-30")

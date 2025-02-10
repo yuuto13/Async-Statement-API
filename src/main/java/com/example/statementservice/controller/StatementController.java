@@ -40,7 +40,7 @@ public class StatementController {
         String taskId = UUID.randomUUID().toString();
         taskCache.put(taskId, new TaskResult(TaskStatus.PROCESSING, null));
         CompletableFuture.runAsync(() ->
-                statementService.generateStatementAsync(taskId, fromDate, toDate, accountNumber));
+                statementService.generateStatements(taskId, fromDate, toDate, accountNumber));
         return ResponseEntity.accepted().body(new TaskIdResponse(taskId));
     }
 
