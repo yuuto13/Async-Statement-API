@@ -1,5 +1,0 @@
-template-id:
-  account-statement: AccountStatement
-
-cache:
-  expire-hours: 24
