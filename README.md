@@ -1,17 +1,9 @@
 # Statement Generation Service
 
-A Spring Boot-based microservice for asynchronous account statement generation.
+A SpringBoot based microservice for asynchronous account statement generation.
 
-## Features
-- Asynchronous statement generation
-- Integration with mock Core Banking system
-- PDF generation through mock Templating Engine
-- Task status tracking
-- Swagger API documentation
+## Setup Instruction
 
-## Setup
-
-### Installation
 1. Clone the repository
 2. Build & Run the project with bash command
 ```bash
