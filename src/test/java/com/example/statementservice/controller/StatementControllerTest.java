@@ -17,8 +17,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @WebMvcTest(controllers = StatementController.class)
-//@AutoConfigureMockMvc(addFilters = false)
-//@ExtendWith(MockitoExtension.class)
 class StatementControllerTest {
     @Autowired
     private MockMvc mockMvc;
